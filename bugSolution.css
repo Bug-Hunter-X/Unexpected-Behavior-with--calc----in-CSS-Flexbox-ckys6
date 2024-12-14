@@ -1,0 +1,21 @@
+/* bug.css */
+.container {
+display: flex;
+}
+
+.element {
+width: calc(100% - 10px);
+background-color: lightblue;
+}
+
+/* bugSolution.css */
+.container {
+display: flex;
+width: 500px; /* Explicit width added */
+}
+
+.element {
+width: calc(100% - 10px);
+background-color: lightblue;
+}
+/* Alternative solutions might involve using flex-grow or flex-basis for more dynamic sizing. */
